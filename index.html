@@ -39,11 +39,11 @@
         <img class="img-fluid" src="assets/img/header-image.jpg" alt="header image">
     </header>
 <!--about me section-->      
-    <section id="about-me" class="py-5">
+    <section id="about-me" class="py-5 d-none d-md-block">
         <div class="container my-4">
             <div class="row">
                 <div class="col-md-4 col-lg-4 col-xs-12">
-                    <img class="about-me-img" src="assets/img/aboutme-img.jpg" alt="picture of me">
+                    <img class="about-me-img" src="assets/img/aboutme-img.jpg" alt="picture of me" title="Hi!"> 
                 </div>
                 <div class="col-md-4 col-lg-4 col-xs-12">
                     <h2 class="text-center">about me.</h2>
@@ -70,7 +70,7 @@
         <section class="container">
             <div class="row">
               <div>
-                <h2 class="col-12 col-md-12 col-lg-12 col-xs-12 text-center">portfolio.</h2>
+                <h2 class="col-12 col-md-12 col-lg-12 col-xs-12 text-center mt-4">portfolio.</h2>
               </div>
               <div class="row row-cols-1 row-cols-md-3 g-4 mx-auto" style="max-width: max-content;">
                 <div class="col">
@@ -127,7 +127,7 @@
 <!--moodboard section-->   
     <section id="moodboard" class="container">
         <div class="row">
-            <h2 class="col-12 col-md-12 col-lg-12 col-xs-12 text-center font-weight-bold mt-1">creative moodboard.</h2>
+            <h2 class="text-center font-weight-bold mt-1">moodboard.</h2>
             <section class="my-5 container mx-auto">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"> 
                   <div class="carousel-inner">
@@ -154,9 +154,10 @@
     </section>
 <!--contact section-->
     <section id="contact">  
-            <div class="container" style="width: 700px;">
-                <h2 class="text-center text-white pt-5 my-2 contact-black">contact.
-                </h2>
+          <div class="container" style="width: 700px;">
+            <div class="row">
+              <div class="col-12 col-x2-12 col-md-6 col-lg-12 col-xl-12">
+                <h2 class="text-center text-white pt-5 my-2 contact-black">contact.</h2>
                 <form>
                     <div class="mb-3">
                         <label class="form-label mb-0"
@@ -177,7 +178,10 @@
                 <div class="text-center">
                     <button class="btn btn-light btn-lg px-4 fs-6 fw-bold mt-3 mb-5 button-text">send.</button>
                 </div>
+              </div>
+                
             </div>
+          </div>
         </section>
     </section>
 <!--footer-->
