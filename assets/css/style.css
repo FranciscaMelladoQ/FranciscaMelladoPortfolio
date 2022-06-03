@@ -1,73 +1,88 @@
 html {
     scroll-behavior: smooth;
-  }
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
     color: #373737;
 }
+
 .navbar-brand {
     font-weight: bold;
     color: 	#373737;
 }
+
 .navbar-nav { 
     font-weight: lighter;
     color: #373737;
 }
+
 header img{
     height: 400px;
 }
+
 .about-me-img {
     width: 85%;
     border-radius: 70%;
 }
+
 h2 {
     font-weight: bold;
     text-decoration-line: underline;
     text-decoration-thickness: 15px;
     text-decoration-color: #ffa56a;
     text-underline-offset: -20%;
-    
-
 }
+
 .parrafo {
     font-weight: lighter;
 }
+
 .icon1 {
     background-color: #c0b283;
     color: white;
     text-align: center;
 }
+
 .icon2 {
     background-color: #c0b283;
     color: white;
     text-align: center;
 }
+
 .card-body {
     font-weight: lighter;
 }
+
 .card-img-top {
     background-size: cover;
 }
+
 #contact {
     background-color: #c0b283;
 }
+
 .contact-black {
     font-weight: bold;
     text-decoration-line: none;
 }
+
 h4 {
     font-weight: bold;
     color: #373737;
     font-size: 20px;
 }
+
 .button-text {
     color: #373737;
 }
+
 footer {
     background-color: #f0f0f0;
 }
+
 .icons a{
     padding-left: 8px;
 }
