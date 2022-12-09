@@ -34,11 +34,15 @@ h2 {
     text-decoration-thickness: 15px;
     text-decoration-color: #ffa56a;
     text-underline-offset: -20%;
+<<<<<<< HEAD
 }
 h5 { 
     font-weight: bold;
     text-align: center;
+=======
+>>>>>>> c102f1beb8ac11a9dc47c86fd09d550b3cda19e0
 }
+
 .parrafo {
     font-weight: lighter;
 }
@@ -89,6 +93,7 @@ footer {
 .icons a{
     padding-left: 8px;
 }
+<<<<<<< HEAD
 
 /* general rule */
 .my-custom-form {
@@ -115,3 +120,5 @@ footer {
         text-align: center;
     }
 }
+=======
+>>>>>>> c102f1beb8ac11a9dc47c86fd09d550b3cda19e0
