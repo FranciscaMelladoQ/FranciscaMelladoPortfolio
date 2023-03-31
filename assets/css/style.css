@@ -29,16 +29,12 @@ header img{
 }
 
 .hero_fran {
-    margin-top: 5.5rem!important;
+    margin-top: 6.5rem;
 }
 
 h2 {
     font-weight:bold;
-    text-decoration-line: underline;
-    text-decoration-thickness: 10px;
-    text-decoration-color: #ffa56a;
-    text-underline-offset: -20%;
-    font-size: 1.4rem;
+    font-size: 24px;
 }
 h5 { 
     font-weight: bold;
@@ -79,8 +75,8 @@ h5 {
 }
 
 .contact-black {
-    font-weight: 700px;
-    text-decoration-line: none;
+    font-size: large;
+    font-weight: 500;   
 }
 
 h4 {
@@ -96,7 +92,7 @@ h4 {
 }
 
 .py-4 {
-    padding-top: 1.5rem!important;
+    padding-top: 3.5rem!important;
     padding-bottom: 3.5rem!important; 
 }
 /* .whatsapp_container {
