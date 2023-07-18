@@ -24,7 +24,7 @@ header img{
 }
 
 .about-me-img {
-    width: 65%;
+    width: 70%;
     border-radius: 70%;
     align-items: center;
 }
@@ -60,6 +60,11 @@ h3 {
     font-weight: lighter;
 }
 
+h5 {
+    font-weight: bold;
+    color:coral
+}
+
 .card-img-top {
     background-size: cover;
 }
@@ -79,15 +84,24 @@ h4 {
     font-size: 20px;
 }
 
-#email_text { 
+.email-link {
+
+    color: #373737;
+}
+/* #email_text { 
     font-size: medium;
     font-weight: 600px;
     color: #f0f0f0;
-}
+} */
 
 .py-4 {
     padding-top: 3.5rem!important;
     padding-bottom: 3.5rem!important; 
+}
+
+.py-5 {
+    padding-top: 4rem!important;
+    padding-bottom: 4rem!important;
 }
 /* .whatsapp_container {
 
